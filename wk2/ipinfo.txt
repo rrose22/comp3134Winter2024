@@ -1,0 +1,22 @@
+Domain Name Look-Up:
+
+4- georgebrown.ca
+IPv4: 99.79.139.11
+Location: Montréal, Quebec, Canada
+
+2- https://www.yorku.ca/
+IP: 130.63.236.137
+Geolocation: CA (Canada), ON, Ontario, M3J Toronto
+
+3- https://www.mcmaster.ca/
+IP: 130.113.64.30
+Geolocation: CA (Canada), ON, Ontario, L8S Hamilton
+
+4- https://uwaterloo.ca/
+IP: 129.97.208.23
+Geolocation: CA (Canada), ON, Ontario, N2L Waterloo
+
+5. Tiktok.com
+IP: 13.227.74.40
+Location: San Francisco, California, United States of America
+

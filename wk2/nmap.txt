@@ -1,0 +1,12 @@
+mac@comp3134winter2024:~# nmap 165.22.228.255
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-24 02:47 UTC
+Nmap scan report for comp3134winter2024 (165.22.228.255)
+Host is up (0.000012s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+root@comp3134winter2024:~# 
