@@ -1,0 +1,64 @@
+root@comp3134winter2024:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:17:56.646880 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3483004632:3483004740, ack 3309646813, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 108
+22:17:56.646984 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 36
+22:17:56.647048 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 52
+22:17:56.647098 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 68
+22:17:56.647140 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 68
+22:17:56.647183 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 3431476108 ecr 243670253], length 36
+22:17:56.748420 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 636:672, ack 1, win 501, options [nop,nop,TS val 3431476209 ecr 243670277], length 36
+22:17:56.748522 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 672:916, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 244
+22:17:56.748569 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 916:952, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.748616 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 952:1196, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 244
+22:17:56.748660 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1196:1232, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.748697 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1232:1476, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 244
+22:17:56.748742 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1476:1512, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.748787 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1512:1756, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 244
+22:17:56.748833 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1756:1792, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.748893 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 1792:2036, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 244
+22:17:56.748937 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2036:2072, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.748983 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2072:2300, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 228
+22:17:56.749026 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2300:2336, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.749107 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2336:2572, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 236
+22:17:56.749151 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2572:2608, ack 1, win 501, options [nop,nop,TS val 3431476210 ecr 243670277], length 36
+22:17:56.852639 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 2800:3036, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 236
+22:17:56.852697 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3036:3072, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.852755 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3072:3228, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 156
+22:17:56.852803 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3228:3264, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.852871 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3264:3444, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 180
+22:17:56.852919 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3444:3480, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.852984 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3480:3612, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 132
+22:17:56.853031 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3612:3648, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.853089 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3648:3796, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 148
+22:17:56.853140 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3796:3832, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.853230 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3832:4068, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 236
+22:17:56.853276 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4068:4104, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.853420 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4104:4292, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 188
+22:17:56.853464 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4292:4328, ack 1, win 501, options [nop,nop,TS val 3431476314 ecr 243670379], length 36
+22:17:56.853551 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4328:4572, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 244
+22:17:56.853627 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4572:4608, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.853677 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4608:4740, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 132
+22:17:56.853721 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4740:4776, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.853755 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4776:4964, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 188
+22:17:56.853798 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 4964:5000, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.853849 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5000:5284, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 284
+22:17:56.853891 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5284:5320, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.853925 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5320:5516, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 196
+22:17:56.853966 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5516:5552, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.854018 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5552:5796, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 244
+22:17:56.854063 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5796:5832, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.854122 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 5832:6076, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 244
+22:17:56.854170 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 6076:6112, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.854231 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 6112:6356, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 244
+22:17:56.854276 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 6356:6392, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 36
+22:17:56.854321 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 6392:6636, ack 1, win 501, options [nop,nop,TS val 3431476315 ecr 243670379], length 244
+22:17:56.866538 IP cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099 > comp3134winter2024.ssh: Flags [.], ack 3480, win 2034, options [nop,nop,TS val 243670481 ecr 3431476314], length 0
+22:17:56.866591 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 6636:10344, ack 1, win 501, options [nop,nop,TS val 3431476328 ecr 243670481], length 3708
+22:17:56.872967 IP cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099 > comp3134winter2024.ssh: Flags [.], ack 6636, win 2048, options [nop,nop,TS val 243670481 ecr 3431476315], length 0
+22:17:56.879533 IP cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099 > comp3134winter2024.ssh: Flags [.], ack 10344, win 2048, options [nop,nop,TS val 243670495 ecr 3431476328], length 0
+
+172 packets captured
+288 packets received by filter
+0 packets dropped by kernel
+root@comp3134winter2024:~# 

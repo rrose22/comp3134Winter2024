@@ -1,0 +1,33 @@
+root@comp3134winter2024:~#  tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:21:38.236030 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 3490400808:3490400916, ack 3309652093, win 501, options [nop,nop,TS val 3431697697 ecr 243891842], length 108
+E.....@.@.
+.....c.+....c..J(.EH}.....<.....
+...!..~.%S...J.x...yw.u........,.........Y.......eOq........
+..%.D..6.&...sF...b:.O3...TG.......).i4=......[..v.+.j.
+22:21:38.236123 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 108:196, ack 1, win 501, options [nop,nop,TS val 3431697697 ecr 243891842], length 88
+E.....@.@.
+.....c.+....c..J..EH}.....(.....
+...!..~...^k0.=.A.p.........r.g.i...s..P..S..........-.R@;./[..`.......hK.$&g}.Y......c...Z..p6V
+22:21:38.236164 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 3431697697 ecr 243891842], length 68
+E..x..@.@.......c.+....c..J..EH}...........
+...!..~.D.......C[2...x..p!..V.ft...r..\a...S..-.r=...a....Zbi`.z/_2."X.@.
++
+22:21:38.236193 IP comp3134winter2024.ssh > cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099: Flags [P.], seq 264:368, ack 1, win 501, options [nop,nop,TS val 3431697697 ecr 243891842], length 104
+E.....@.@.
+.....c.+....c..K0.EH}.....8.....
+...!..~..j-./QF.(WR.`%..z.....U.8/k6.V.i..`?$.E98.&..w@PS[$V...........pS.n...D._5=.=C........V)T...	ds...0m.j6.
+22:21:38.244503 IP cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099 > comp3134winter2024.ssh: Flags [.], ack 0, win 10304, options [nop,nop,TS val 243891859 ecr 3431697691], length 0
+E..4..@.9.(.c.+......c...EH}..J(..(@+......
+..~.....
+22:21:38.251286 IP cpef85e42a3ebf8-cmf85e42a3ebf6.cpe.net.cable.rogers.com.64099 > comp3134winter2024.ssh: Flags [.], ack 368, win 10300, options [nop,nop,TS val 243891866 ecr 3431697697], length 0
+E..4..@.9.(.c.+......c...EH}..K...(<*&.....
+..~....!
+^C22:21:38.334277 IP comp3134winter2024.36727 > 67.207.67.3.domain: 34514+ [1au] PTR? 173.43.230.99.in-addr.arpa. (55)
+E..S....@.......C.C..w.5.?.9.............173.43.230.99.in-addr.arpa.......)........
+
+7 packets captured
+46 packets received by filter
+0 packets dropped by kernel
+root@comp3134winter2024:~# 

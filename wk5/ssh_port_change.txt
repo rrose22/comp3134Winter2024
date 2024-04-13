@@ -1,0 +1,3 @@
+6.) sudo service sshd restart -> Restart the sshd service
+
+7.) ssh -p2222 root@165.22.228.255 -> login to ssh service with new port 2222
